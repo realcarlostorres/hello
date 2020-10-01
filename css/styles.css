@@ -7,7 +7,7 @@ body {
 }
 
 h1 {
-  margin: 50px auto 0 auto;
+  margin: 100px auto 0 auto;
   font-family: 'sacramento', cursive;
   font-size: 5.625rem;
   color: #66bfbf;
@@ -40,37 +40,107 @@ hr {
   width: 3%;
 }
 
-button{
+button {
   padding-bottom: 0px;
-    padding-left: 0px;
-    padding-top: 0px;
-    padding-right: 0px;
-    border-top-width: 0px;
-    border-left-width: 0px;
-    border-right-width: 0px;
-    border-bottom-width: 0px;
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
 }
 
-p{
-    line-height: 2;
+p {
+  line-height: 2;
 }
 
-.top-cloud {
+
+.blue_donut {
+  margin-top: 30px;
   position: absolute;
   right: 300px;
   top: 30px;
+  width: 200px;
+  height: 200px;
+  opacity: 85%;
 }
 
-.bottom-cloud {
+.sprinkle_donut {
+  margin-top: 30px;
   position: absolute;
-  left: 250px;
-  bottom: 300px;
+  right: 150px;
+  top: 300px;
+  width: 75px;
+  height: 75px;
+  opacity: 85%;
 }
 
-.uxuidesigner{
+.orange_drizzle {
+  position: absolute;
+  right: 1160px;
+  top: 50px;
+  width: 100px;
+  height: 100px;
+  opacity: 85%;
+}
+
+.green_donut {
+  margin-top: 100px;
+  position: absolute;
+  right: 270px;
+  top: 350px;
+  width: 100px;
+  height: 100px;
+  opacity: 85%;
+}
+
+.pink_donut {
+  margin-top: 250px;
+  position: absolute;
+  right: 200px;
+  top: 350px;
+  width: 125px;
+  height: 125px;
+  opacity: 85%;
+}
+
+.mm_donut {
+  margin-top: -25px;
+  position: absolute;
+  right: 1275px;
+  top: 350px;
+  width: 100px;
+  height: 100px;
+  opacity: 85%;
+}
+
+.yellow_donut {
+  margin-top: 370px;
+  position: absolute;
+  right: 1450px;
+  top: 250px;
+  width: 140px;
+  height: 140px;
+  opacity: 85%;
+}
+
+.brown_donut {
+  position: absolute;
+  left: 175px;
+  bottom: 300px;
+  width: 180px;
+  height: 180px;
+  opacity: 85%;
+}
+
+.uxuidesigner {
   margin-top: 30px;
 }
 
+.designer_art {
+  margin-top: 25px;
+}
 
 .profilepicture {
   width: 300px;
@@ -79,12 +149,12 @@ p{
   margin: 15px auto 15px auto;
 }
 
-.intro{
+.intro {
   width: 40%;
   margin: auto;
 }
 
-.hello{
+.hello {
   margin-top: 30px;
 }
 
@@ -120,7 +190,6 @@ p{
   width: 50%;
   margin: 100px auto 100px auto;
   text-align: left;
-
 }
 
 .skill-row-2 {
@@ -174,29 +243,28 @@ p{
   text-decoration: none;
 }
 
-.footer-link{
-  color: #11999E;
-margin: 10px 20px;
-font-family: Montserrat, sans-serif;
-text-decoration: none;
-}
-
-.footer-link:hover{
+.footer-link {
   color: #EAF6F6;
+  margin: 10px 20px;
+  font-family: Montserrat, sans-serif;
+  text-decoration: none;
 }
 
-.bottom-container{
+.footer-link:hover {
+  color: #1A696A;
+}
+
+.bottom-container {
   background-color: #66BFBF;
   padding-top: 60PX;
   padding-bottom: 40PX;
 }
 
-.intouch{
+.intouch {
   margin: 50px auto 65px;
 }
 
 #copyright {
   color: #EAF6F6;
   font-size: .75rem;
-  
 }
